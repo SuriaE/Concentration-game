@@ -1,0 +1,148 @@
+body{
+  margin: 0;
+  background-color: #f1f1f1;
+  font-family: sans-serif;
+  position: relative;
+}
+.nav{
+top:0;
+position: fixed;
+width: 100%;
+z-index: 1;
+}
+
+.header{
+  overflow: hidden;
+  background-color: #5f5f5f;
+  padding: 10px;
+  box-shadow: 0 2px 10px #888888;
+}
+
+.header > a.logo{
+  font-size: 30px;
+  font-weight: bold;
+}
+.header a{
+float: left;
+text-align: center;
+text-decoration: none;
+color: #f1f1f1;
+font-size: 20px;
+padding: 15px;
+line-height: 20px;
+}
+
+.menu{
+  float: right;
+}
+
+.header > a:hover{
+  color: black;
+}
+
+.footer{
+  bottom: 0;
+  overflow: hidden;
+  background-color: #5f5f5f;
+  width: 100%;
+  box-shadow: 0 -2px 10px #888888;
+}
+
+.info{
+  line-height: 10px;
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.home{
+  padding: 118px 150px 25px 150px;
+}
+
+.game, .instructions {
+  padding: 25px 150px;
+}
+
+.aboutUs{
+  padding: 25px 150px 42px 150px;
+
+}
+.content{
+  padding: 25px 20px;
+  margin-top: 20px;
+  background-color: #d1ffba;
+}
+
+ .instructions > .content > p{
+line-height: 10px;
+ }
+
+ .card-deck{
+   display: grid;
+   grid-template-columns: auto auto auto auto;
+   grid-gap: 8px 1px;
+   padding:20px;
+ }
+
+ .items{
+   border: 1px dotted rgba(0, 0, 0, 0.5);
+   padding: 2px 3px 26px;
+   height: 100px;
+   width: 267px;
+   text-align: center;
+   background-color: white;
+   position: relative;
+   transform: perspective(1000px) rotateY(0);
+   transform-style: preserve-3d;
+   transition: transform .5s linear 0s;
+ }
+
+ .flip{
+  transform: perspective(1000px) rotateY(180deg);
+ }
+
+
+img {
+  width: 267px;
+  height: 123px;
+}
+
+ .items > .front {
+   position: absolute;
+   height: 123px;
+   width: 267px;
+   backface-visibility: hidden;
+   background-image: url('img/marble.jpg');
+ }
+
+ .items > .back {
+   position: absolute;
+   transform: perspective(1000px) rotateY(180deg);
+   transform-style: preserve-3d;
+   height: 123px;
+   width: 267px;
+   border-radius: 5px;
+   backface-visibility: hidden;
+ }
+
+button{
+  float: right;
+   margin: -40px 32px 1px;
+   text-align: center;
+}
+
+.success{
+  display: inline;
+}
+
+@media screen and (max-width:757px){
+  .menu{
+    float: none;
+  }
+  .menu a{
+    border: 0.5px solid black;
+  }
+  .header a{
+    display: block;
+    float: none;
+  }
+}

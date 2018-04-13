@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Concentration Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="nav">
+    <div class="header">
+      <a href="#" class="logo">Concentration Game</a>
+      <div class="menu">
+        <a href="#home">Home</a>
+        <a href="#game">Game</a>
+        <a href="#instructions">Instructions</a>
+        <a href="#aboutUs">About Us</a>
+      </div>
+    </div>
+  </div>
+  <div class="home" id="home">
+    <div class="content">
+      <h3>HOME</h3>
+      <p>Welcome to this page. Here you can find the memory game popularly known as Concentration game. This is a card game in which all of the cards are laid
+        face down on a surface and two cards are flipped face up over each turn. The object of the game is to turn over pairs
+        of matching cards. Concentration can be played with any number of players or as solitaire. It is a particularly good
+        game for young children, though adults may find it challenging and stimulating as well.</p>
+    </div>
+  </div>
+  <div class="game" id="game">
+    <div class="content">
+      <h3>GAME</h3>
+      <p class="success" id="win">You have completed the game successfully in moves. Click start to play again.</p>
+      <button type="button" onclick="newDeck();"><b>START</b></button>     
+      <div class="card-deck" id="deck">
+      </div>
+    </div>
+  </div>
+  <div class="instructions" id="instructions">
+    <div class="content">
+      <h3>INSTRUCTIONS</h3>
+      <p>1.Mix up the cards.</p>
+      <p>2.Lay them in rows, face down.</p>
+      <p>3.Turn over any two cards.</p>
+      <p>4.If the two cards match, keep them.</p>
+      <p>5.If they don't match, turn them back over.</p>
+      <p>6.Remember what was on each card and where it was.</p>
+      <p>7.The game is over when all the cards have been matched.</p>
+      <p>8.Play again by clicking on the START button</p>
+    </div>
+  </div>
+  <div class="aboutUs" id="aboutUs">
+    <div class="content">
+      <h3>ABOUT US</h3>
+      <p>This website allows visitors play to the Concentration game. It is built using technologies like HTML5, CSS3 and Javascript. 
+        This site is responsive and the game can be played on all devices.</p>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="info">
+      <p>&copy; Suria Prabha Ejoumale</p>
+      <p>Köln, Deutschland - 2018</p>
+    </div>
+
+
+  </div>
+  <script src="main.js" charset="utf-8"></script>
+</body>
+
+</html>
