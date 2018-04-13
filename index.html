@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Concentration Game</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -12,12 +13,14 @@
   <div class="nav">
     <div class="header">
       <a href="#" class="logo">Concentration Game</a>
-      <div class="menu">
-        <a href="#home">Home</a>
+       <div class="responsive"><a href="javascript:void(0);" class="icon" onclick="resMenu()"><i class="fa fa-bars"></i></a></div>
+      <div class="menu" id="menu">
+        <a href="#home" class="active">Home</a>
         <a href="#game">Game</a>
         <a href="#instructions">Instructions</a>
         <a href="#aboutUs">About Us</a>
       </div>
+      
     </div>
   </div>
   <div class="home" id="home">

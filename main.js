@@ -89,6 +89,13 @@ function flipcard(card_index, card_id) {
   }
 
 }
-
+function resMenu(){
+  var id = document.getElementById('menu');
+  if (id.className === 'menu') {
+        id.className += ' responsive';
+    } else {
+        id.className = 'menu';
+    }
+}
 init();
 
