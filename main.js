@@ -47,7 +47,7 @@ function shuffleCards(array) {
 
 function newDeck() {
   cards_flipped = [];
-  // document.getElementById('win').innerHTML = '';
+  document.getElementById('win').innerHTML = '';
   var result = '';
   var s = shuffleCards(cards);
   for (var i = 0; i < s.length; i++) {

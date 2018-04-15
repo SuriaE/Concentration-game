@@ -85,21 +85,21 @@ line-height: 20px;
 }
 
  .instructions > .content > p{
-line-height: 10px;
+line-height: 5px;
  }
 
  .card-deck{
    display: grid;
    grid-template-columns: auto auto auto auto;
-   grid-gap: 8px 1px;
-   padding:20px;
+   padding:42px;
  }
 
  .items{
    border: 1px dotted rgba(0, 0, 0, 0.5);
    padding: 2px 3px 26px;
    height: 100px;
-   width: 267px;
+   width: 100%;
+   max-width: 267px;
    text-align: center;
    background-color: white;
    position: relative;
@@ -114,14 +114,16 @@ line-height: 10px;
 
 
 img {
-  width: 267px;
+  width: 100%;
+  max-width: 267px;
   height: 123px;
 }
 
  .items > .front {
    position: absolute;
    height: 123px;
-   width: 267px;
+   width: 100%;
+   max-width: 267px;
    backface-visibility: hidden;
    background-image: url('img/marble.jpg');
  }
@@ -131,7 +133,8 @@ img {
    transform: perspective(1000px) rotateY(180deg);
    transform-style: preserve-3d;
    height: 123px;
-   width: 267px;
+   width: 100%;
+   max-width: 267px;
    border-radius: 5px;
    backface-visibility: hidden;
  }
@@ -146,7 +149,778 @@ button{
   display: inline;
 }
 
-@media screen and (max-width:757px){
+@media screen and (max-width:1528px) and (min-width:1516px) {
+
+  .card-deck{
+   padding:36px;
+ }
+
+ .items{
+   height: 97px;
+   
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+ }
+
+
+}
+
+@media screen and (max-width:1516px) and (min-width:1497px){
+
+  .card-deck{
+   padding:30px;
+ }
+
+ .items{
+   height: 97px;
+   /*max-width: 256px;*/
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   /*max-width: 256px;*/
+ }
+
+
+}
+
+@media screen and (max-width:1497px) and (min-width:1488px){
+
+  .card-deck{
+   padding:72px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 240px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 240px;
+ }
+
+
+}
+
+@media screen and (max-width:1488px) and (min-width:1457px){
+
+  .card-deck{
+   padding:69px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 240px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 240px;
+ }
+
+
+}
+
+@media screen and (max-width:1457px) and (min-width:1422px){
+  .card-deck{
+   padding:82px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 225px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 225px;
+ }
+
+}
+
+@media screen and (max-width:1422px) and (min-width:1388px){
+  .card-deck{
+   padding:78px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 218px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 218px;
+ }
+
+}
+
+@media screen and (max-width:1388px) and (min-width:1353px){
+  .card-deck{
+   padding:63px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 218px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 218px;
+ }
+
+}
+
+@media screen and (max-width:1353px) and (min-width:1318px){
+  .card-deck{
+   padding:45px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 218px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 218px;
+ }
+
+}
+
+@media screen and (max-width:1318px) and (min-width:1300px){
+  .card-deck{
+   padding:28px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 218px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 218px;
+ }
+
+}
+
+@media screen and (max-width:1300px) and (min-width:1268px){
+  .card-deck{
+   padding:21px;
+ }
+
+ .items{
+   height: 97px;
+   max-width: 218px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 120px;
+   max-width: 218px;
+ }
+
+}
+
+@media screen and (max-width:1268px) and (min-width:1233px){
+  .card-deck{
+   padding:54px;
+ }
+
+ .items{
+   height: 90px;
+   max-width: 193px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 113px;
+   max-width: 193px;
+ }
+
+}
+
+@media screen and (max-width:1268px) and (min-width:1233px){
+  .card-deck{
+   padding:54px;
+ }
+
+ .items{
+   height: 90px;
+   max-width: 193px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 113px;
+   max-width: 193px;
+ }
+
+}
+
+@media screen and (max-width:1233px) and (min-width:1196px){
+  .card-deck{
+   padding:36px;
+ }
+
+ .items{
+   height: 90px;
+   max-width: 193px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 113px;
+   max-width: 193px;
+ }
+
+}
+
+
+@media screen and (max-width:1196px) and (min-width:1161px){
+  .card-deck{
+   padding:19px;
+ }
+
+ .items{
+   height: 90px;
+   max-width: 193px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 113px;
+   max-width: 193px;
+ }
+
+}
+
+@media screen and (max-width:1161px) and (min-width:1128px){
+  .card-deck{
+   padding:35px;
+ }
+
+ .items{
+   height: 86px;
+   max-width: 176px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 110px;
+   max-width: 176px;
+ }
+
+}
+
+@media screen and (max-width:1128px) and (min-width:1083px){
+  .card-deck{
+   padding:38px;
+ }
+
+ .items{
+   height: 80px;
+   max-width: 163px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 104px;
+   max-width: 163px;
+ }
+
+}
+
+@media screen and (max-width:1083px) and (min-width:1060px){
+  .card-deck{
+   padding:26px;
+ }
+
+ .items{
+   height: 66px;
+   max-width: 163px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 90px;
+   max-width: 163px;
+ }
+
+}
+
+@media screen and (max-width:1060px) and (min-width:1024px){
+  .card-deck{
+   padding:25px;
+ }
+
+ .items{
+   height: 60px;
+   max-width: 156px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 84px;
+   max-width: 156px;
+ }
+
+}
+
+@media screen and (max-width:1024px) and (min-width:1011px){
+  button {
+    margin: -45px 32px 1px;
+}
+  .card-deck{
+   padding:24px;
+ }
+
+ .items{
+   height: 58px;
+   max-width: 153px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 82px;
+   max-width: 154px;
+ }
+
+}
+
+@media screen and (max-width:1011px) and (min-width:977px){
+
+  
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:35px;
+ }
+
+ .items{
+   height: 50px;
+   max-width: 138px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 73px;
+   max-width: 138px;
+ }
+
+}
+
+@media screen and (max-width:977px) and (min-width: 944px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:19px;
+ }
+
+ .items{
+   height: 50px;
+   max-width: 138px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 73px;
+   max-width: 138px;
+ }
+
+}
+
+@media screen and (max-width:944px) and (min-width: 927px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:10px;
+ }
+
+ .items{
+   height: 50px;
+   max-width: 138px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 73px;
+   max-width: 138px;
+ }
+
+}
+
+@media screen and (max-width:944px) and (min-width: 908px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:33px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 122px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 65px;
+   max-width: 122px;
+ }
+
+}
+
+@media screen and (max-width:908px) and (min-width: 872px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -32px 20px 1px;
+  }
+
+  .card-deck{
+   padding:23px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 118px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 65px;
+   max-width: 118px;
+ }
+
+}
+
+@media screen and (max-width:872px) and (min-width: 837px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -50px 20px 1px;
+  }
+
+  .card-deck{
+   padding:15px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 114px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 65px;
+   max-width: 114px;
+ }
+
+ .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+}
+
+@media screen and (max-width:837px) and (min-width: 798px){
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -50px 20px 1px;
+  }
+
+  .card-deck{
+   padding:23px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 100px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 65px;
+   max-width: 100px;
+ }
+
+ .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+}
+
+
+@media screen and (max-width:798px) and (min-width: 757px){
+
+  .home {
+    padding: 90px 90px 12px 90px;
+}
+
+.game, .instructions {
+    padding: 17px 90px;
+}
+
+
+.aboutUs {
+    padding: 17px 90px 42px 90px;
+}
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -35px 34px 1px;
+  }
+
+  .card-deck{
+   padding:35px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 114px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 65px;
+   max-width: 114px;
+ }
+
+ .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+}
+
+@media screen and (max-width:757px) and (min-width:718px){
+
+  .home {
+    padding: 90px 90px 12px 90px;
+}
+
+.game, .instructions {
+    padding: 17px 90px;
+}
+
+
+.aboutUs {
+    padding: 17px 90px 42px 90px;
+}
+
+  p{
+    font-size: 12px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -53px 32px 1px;
+  }
+
+  .card-deck{
+   padding:24px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 110px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 66px;
+   max-width: 110px;
+ }
   
   .menu a{
     display: none;
@@ -185,4 +959,411 @@ button{
     padding: 13px;
     line-height: 12px;
   }
+}
+
+@media screen and (max-width:718px) and (min-width:687px){
+
+  .home {
+  padding: 74px 40px 7px 40px;
+}
+
+.game, .instructions {
+  padding: 8px 40px;
+}
+
+.aboutUs {
+  padding: 10px 40px 35px 40px;
+}
+
+  p{
+    font-size: 10px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -35px 32px 1px;
+  }
+
+  .card-deck{
+   padding:48px;
+ }
+
+ .items{
+   height: 42px;
+   max-width: 114px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 66px;
+   max-width: 114px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width:687px) and (min-width:644px){
+
+  .home {
+  padding: 74px 40px 7px 40px;
+}
+
+.game, .instructions {
+  padding: 8px 40px;
+}
+
+.aboutUs {
+  padding: 10px 40px 35px 40px;
+}
+
+  p{
+    font-size: 10px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:40px;
+ }
+
+ .items{
+   height: 38px;
+   max-width: 108px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 62px;
+   max-width: 108px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width:644px) and (min-width:600px){
+
+  .home {
+  padding: 74px 40px 7px 40px;
+}
+
+.game, .instructions {
+  padding: 8px 40px;
+}
+
+.aboutUs {
+  padding: 10px 40px 35px 40px;
+}
+
+  p{
+    font-size: 10px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -31px 32px 1px;
+  }
+
+  .card-deck{
+   padding:35px;
+ }
+
+ .items{
+   height: 32px;
+   max-width: 100px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 55px;
+   max-width: 100px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+}
+
+
+@media screen and (max-width:600px) and (min-width:560px){
+
+  .home {
+  padding: 74px 40px 7px 40px;
+}
+
+.game, .instructions {
+  padding: 8px 40px;
+}
+
+.aboutUs {
+  padding: 10px 40px 35px 40px;
+}
+
+  p{
+    font-size: 10px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+    margin: -50px 16px 1px;
+  }
+
+  .card-deck{
+   padding:36px;
+ }
+
+ .items{
+   height: 27px;
+   max-width: 90px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 50px;
+   max-width: 90px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+}
+
+@media screen and (max-width:560px) {
+
+  .home {
+  padding: 67px 20px 5px 20px;
+}
+
+.game, .instructions {
+  padding: 7px 20px
+}
+
+.aboutUs {
+  padding: 10px 20px 32px 20px;
+}
+
+  p{
+    font-size: 8px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -35px 32px 1px;
+  }
+
+  .card-deck{
+   padding:25px;
+ }
+
+ .items{
+   height: 32px;
+   max-width: 96px;
+   border: none;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 55px;
+   max-width: 96px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+  .header > a.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
 }
