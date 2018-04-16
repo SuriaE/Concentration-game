@@ -72,7 +72,27 @@ function flipcard(card_index, card_id) {
 
     if (cards[first] == cards[second]) {
       match += 2;
-      cards_flipped = [];
+      function removeCards(){
+        var pDiv1 = document.getElementById(cards_flipped[0]);
+      var cDiv = pDiv1.children;
+      for (var i = 0; i < cDiv.length; i++) {
+        if (cDiv[i].tagName == "DIV") {  
+          cDiv[i].style.display = 'none'; 
+        }
+      }
+
+      var pDiv2 = document.getElementById(cards_flipped[1]);
+      var cDiv2 = pDiv2.children;
+      for (var i = 0; i < cDiv2.length; i++) {
+        if (cDiv2[i].tagName == "DIV") {   
+          cDiv2[i].style.display = 'none'; 
+        }
+         
+      }
+     cards_flipped = [];
+      }
+      setTimeout(removeCards, 500);
+
       if (match == cards.length) {
         var msg = 'You have completed the game successfully in ' + counter + ' moves. Click start to play again.';
         document.getElementById('win').innerHTML = msg;
@@ -89,13 +109,13 @@ function flipcard(card_index, card_id) {
   }
 
 }
-function resMenu(){
+function resMenu() {
   var id = document.getElementById('menu');
   if (id.className === 'menu') {
-        id.className += ' responsive';
-    } else {
-        id.className = 'menu';
-    }
+    id.className += ' responsive';
+  } else {
+    id.className = 'menu';
+  }
 }
 init();
 
