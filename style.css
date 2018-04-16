@@ -1282,7 +1282,7 @@ button{
   }
 }
 
-@media screen and (max-width:560px) {
+@media screen and (max-width:560px) and (min-width:521px)  {
 
   .home {
   padding: 67px 20px 5px 20px;
@@ -1315,13 +1315,352 @@ button{
  .items{
    height: 32px;
    max-width: 96px;
-   border: none;
  }
 
 
  .items > .front, .items > .back, img {
    height: 55px;
    max-width: 96px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+  .header > a.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width:521px) and (min-width:487px)  {
+
+  .home {
+  padding: 67px 20px 5px 20px;
+}
+
+.game, .instructions {
+  padding: 7px 20px
+}
+
+.aboutUs {
+  padding: 10px 20px 32px 20px;
+}
+
+  p{
+    font-size: 8px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -35px 32px 1px;
+  }
+
+  .card-deck{
+   padding:23px;
+ }
+
+ .items{
+   height: 27px;
+   max-width: 88px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 50px;
+   max-width: 88px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+  .header > a.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width:487px) and (min-width:450px)  {
+
+  .home {
+  padding: 67px 20px 5px 20px;
+}
+
+.game, .instructions {
+  padding: 7px 20px
+}
+
+.aboutUs {
+  padding: 10px 20px 32px 20px;
+}
+
+  p{
+    font-size: 8px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -37px 13px 1px;
+  }
+
+  .card-deck{
+   padding:16px;
+ }
+
+ .items{
+   height: 23px;
+   max-width: 82px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 46px;
+   max-width: 82px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+  .header > a.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width:450px) and (min-width:412px)  {
+
+  .home {
+  padding: 67px 20px 5px 20px;
+}
+
+.game, .instructions {
+  padding: 7px 20px
+}
+
+.aboutUs {
+  padding: 10px 20px 32px 20px;
+}
+
+  p{
+    font-size: 8px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -37px 13px 1px;
+  }
+
+  .card-deck{
+   padding:8px;
+ }
+
+ .items{
+   height: 20px;
+   max-width: 76px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 43px;
+   max-width: 76px;
+ }
+  
+  .menu a{
+    display: none;
+    }  
+  .responsive a.icon {
+    float: right;
+    display: block;
+    font-size: 20px;
+  }
+  
+   .menu.responsive{
+     float: none;
+     padding: 30px 0px 0px 1px;
+     }
+
+  .responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 8px;
+  }
+  .menu.responsive a { 
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 8px;
+  }
+
+  .header .logo{
+    display: block;
+    float: left;
+  }
+
+  .header a{
+    font-size: 17px;
+    padding: 13px;
+    line-height: 12px;
+  }
+
+  .header > a.logo {
+    font-size: 20px;
+    font-weight: bold;
+}
+}
+
+@media screen and (max-width:412px){
+
+  .home {
+  padding: 67px 20px 5px 20px;
+}
+
+.game, .instructions {
+  padding: 7px 20px
+}
+
+.aboutUs {
+  padding: 10px 20px 32px 20px;
+}
+
+  p{
+    font-size: 8px;
+  }
+
+  h3{
+    font-size: 14px !important;
+  }
+
+  button{
+        margin: -37px 13px 1px;
+  }
+
+  .card-deck{
+   padding:6px;
+ }
+
+ .items{
+   height: 15px;
+   max-width: 70px;
+ }
+
+
+ .items > .front, .items > .back, img {
+   height: 40px;
+   max-width: 70px;
  }
   
   .menu a{
